@@ -2,6 +2,7 @@ window.onload = pageSetup;
 
 var imageOrigin = null;
 var imageDest = null;
+
 function pageSetup() {
     createHtmlLogic();
 }
