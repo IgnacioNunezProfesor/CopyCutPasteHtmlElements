@@ -23,8 +23,6 @@ function createHtmlLogic() {
 function copyImage() {
     imageOrigin = document.getElementById("imgorigin");
     document.getElementById("msg").textContent = "Image copied to clipboard";
-
-
 }
 
 function pasteImage() {
@@ -32,4 +30,6 @@ function pasteImage() {
     imageDest.src = imageOrigin.src;
     imageDest.alt = imageOrigin.alt;
     imageDest.title = imageOrigin.title;
+    document.getElementById("msg").textContent = "";
+
 }
